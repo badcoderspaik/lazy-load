@@ -1,0 +1,23 @@
+{
+  "name": "lazy-load-images",
+  "version": "1.0.0",
+  "description": "lazy-load for images on scroll",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "karma": "^4.2.0",
+    "karma-coverage": "^1.1.2",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandr Timofeev",
+  "license": "ISC"
+}

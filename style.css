@@ -1,0 +1,41 @@
+.wrapper {
+    max-width: 1440px;
+    margin: auto;
+    border: 1px solid indigo;
+    min-height: 1200px;
+}
+
+img {
+    transition: 1s ease;
+    width: 100%;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    width: 100%;
+}
+p {
+    font-size: 20px;
+    padding: 0 15px;
+}
+
+h2 {
+    color: indianred;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.one {
+    flex-basis: 66.5%;
+}
+
+.two {
+    flex-basis: 33.5%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
